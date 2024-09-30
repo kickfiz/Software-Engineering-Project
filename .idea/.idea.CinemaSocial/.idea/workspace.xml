@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2a55d7f-83d7-4bfe-84f9-14331021e02e" name="Changes" comment="" />
+    <list default="true" id="a2a55d7f-83d7-4bfe-84f9-14331021e02e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,6 +233,7 @@
       <workItem from="1727693310900" duration="43000" />
       <workItem from="1727693600743" duration="23000" />
       <workItem from="1727693671280" duration="301000" />
+      <workItem from="1727693998285" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="add main pages">
       <option name="closed" value="true" />
