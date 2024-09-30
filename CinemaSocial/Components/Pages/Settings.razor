@@ -1,0 +1,43 @@
+@page "/settings"
+@using Microsoft.AspNetCore.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [Authorize(Roles = "Administrator,User")]
+
+<PageTitle>Settings</PageTitle>
+
+<div class="pt-5 mt-5 p-4 m-4 rounded w-25 mx-auto align-items-center justify-content-center bg-light" style="border: 1px solid rgba(0, 0, 0, .125);">
+    <h2 class="mt-2 text-center">Settings</h2>
+
+    <h4 class="mt-2 mb-3 pb-4 text-center">Logged in as <span class="text-danger">@_username</span></h4>
+
+    <div class="nav-item px-3 d-flex justify-content-center">
+        <NavLink class="nav-link text-dark" href="/settings">
+            <span class="bi bi-file-text fs-5" style="margin-right: 0.75rem;" aria-hidden="true"></span> Terms and conditions
+        </NavLink>
+    </div>
+    <hr class="my-2 custom-hr">
+    <div class="nav-item px-3 d-flex justify-content-center">
+        <NavLink class="nav-link text-dark" href="/settings">
+            <span class="bi bi-info-circle fs-5" style="margin-right: 0.75rem;" aria-hidden="true"></span> About
+        </NavLink>
+    </div>
+    <hr class="my-2 custom-hr">
+    <div class="nav-item px-3 d-flex justify-content-center">
+        <NavLink class="mt-4 pt-4 nav-link text-dark" href="/logout">
+            Logout<span class="bi bi-arrow-right fs-5" style="margin-left: 0.75rem;" aria-hidden="true"></span>
+        </NavLink>
+    </div>
+</div>
+
+@code {
+    private string? _username;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        _username = authState.User.Identity!.Name;
+    }
+}
+
+
+

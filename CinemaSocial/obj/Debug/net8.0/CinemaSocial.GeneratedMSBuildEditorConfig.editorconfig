@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CinemaSocial
+build_property.RootNamespace = CinemaSocial
+build_property.ProjectDir = C:\Users\andre\Desktop\stuff\repositorios\Software-Engineering-Project\CinemaSocial\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\andre\Desktop\stuff\repositorios\Software-Engineering-Project\CinemaSocial
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Account/AccessDenied.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XEFjY2Vzc0RlbmllZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Account/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Account/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XExvZ291dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Account/SignUp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XFNpZ25VcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Movies/MovieCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZXNcTW92aWVDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Movies/TopMovies.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZXNcVG9wTW92aWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Reviews/CreateAReview.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZXZpZXdzXENyZWF0ZUFSZXZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXR0aW5ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Watchlists/AddToFavourites.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXYXRjaGxpc3RzXEFkZFRvRmF2b3VyaXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Watchlists/AddToWatch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXYXRjaGxpc3RzXEFkZFRvV2F0Y2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Watchlists/AddToWatched.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXYXRjaGxpc3RzXEFkZFRvV2F0Y2hlZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ftwrox8ccz
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-q2p5231itt
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-krvtb1emsw
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Movies/MovieDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZXNcTW92aWVEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ho8kiqpjw1
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Reviews/OtherReviews.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZXZpZXdzXE90aGVyUmV2aWV3cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-8x57pto4tm
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Reviews/Reviews.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZXZpZXdzXFJldmlld3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2mptae976q
+
+[C:/Users/andre/Desktop/stuff/repositorios/Software-Engineering-Project/CinemaSocial/Components/Pages/Watchlists/Watchlist.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXYXRjaGxpc3RzXFdhdGNobGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qzdjgzda6o

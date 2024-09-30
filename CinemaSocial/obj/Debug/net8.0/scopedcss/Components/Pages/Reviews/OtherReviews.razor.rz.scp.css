@@ -1,0 +1,26 @@
+.movie-box[b-8x57pto4tm] {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.movie-box img[b-8x57pto4tm] {
+    height: auto;
+    margin-right: 15px;
+}
+
+.movie-box .movie-details[b-8x57pto4tm] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn:focus[b-8x57pto4tm] {
+    outline: none !important;
+}

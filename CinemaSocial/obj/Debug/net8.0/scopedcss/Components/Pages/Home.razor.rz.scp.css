@@ -1,0 +1,37 @@
+.scroll-container[b-krvtb1emsw] {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+.scroll-container[b-krvtb1emsw]::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-container[b-krvtb1emsw]::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.scroll-container[b-krvtb1emsw]::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.scroll-container > div[b-krvtb1emsw] {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.scroll-container > div[b-krvtb1emsw] {
+    flex: 0 0 auto;
+    width: 1300px;
+    margin-right: 10px;
+}
+
+.card-title[b-krvtb1emsw]{
+    white-space: normal;
+    word-wrap: break-word;
+}

@@ -1,0 +1,34 @@
+@using CinemaSocial.Models.Entities
+@inject IJSRuntime Js
+
+@{
+    var image = Movie?.Images.FirstOrDefault(i => i.NumberUrl == "190");
+}
+
+<div class="card h-100 fade-in" @ref="_posterCardElement">
+    @if (image != null)
+    {
+        <img src="@image.Url" class="card-img-top" alt="Movie Poster"/>
+        <div class="card-body p-2 border-top bg-light">
+            <div class="overflow-hidden">
+                <h5 class="card-title">@Movie?.Title</h5>
+            </div>
+            <p class="card-text">@Movie?.Year</p>
+        </div>
+        <div class="card-footer p-1 text-end">
+            <a class="btn btn-primary col-6" href="/movie/@Movie?.IdMovie">Details</a>
+        </div>
+    }
+    else
+    {
+        <img src="https://ih1.redbubble.net/image.1349748792.1068/fposter,small,wall_texture,square_product,600x600.u1.jpg" class="card-img-top" alt="Movie Poster"/>
+    }
+</div>
+
+@code {
+    private ElementReference _posterCardElement;
+    
+    [Parameter]
+    public Movie? Movie { get; set; }
+    
+}
